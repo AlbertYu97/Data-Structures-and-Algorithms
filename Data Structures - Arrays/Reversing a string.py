@@ -4,7 +4,6 @@ def reverse(string):
         return "input has to be string"
 
     string_reversed = ''
-    position = 0
     for index in range(len(string) - 1, -1, -1):
         string_reversed = string_reversed + string[index]
     return string_reversed
